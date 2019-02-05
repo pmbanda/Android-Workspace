@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Runner App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="text_view_message">Original text</string>
+    <string name="app_name_intentDMA">Message</string>
+    <string name="edit_test_name">Name</string>
+</resources>

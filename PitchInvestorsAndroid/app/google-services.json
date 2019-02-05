@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "586113307368",
+    "firebase_url": "https://pitch-investors.firebaseio.com",
+    "project_id": "pitch-investors",
+    "storage_bucket": "pitch-investors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586113307368:android:ce09e1e8e9b54183",
+        "android_client_info": {
+          "package_name": "com.example.pm0952513.pitchinvestor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586113307368-7ad255li94sc2p0qs4o6ddbo1ap1prg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pm0952513.pitchinvestor",
+            "certificate_hash": "cfc5131e5759b9fc1ce96fcf43ee8abd54780cb7"
+          }
+        },
+        {
+          "client_id": "586113307368-27uncbclocf0c8cp3c5vn0ctk12vouso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_UZSqFzVR0W33lyQ_Y51qTSrNMB3QMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586113307368-27uncbclocf0c8cp3c5vn0ctk12vouso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586113307368:android:2a3210c1ca761db3",
+        "android_client_info": {
+          "package_name": "com.pitchinvestorsgroup.pitchinvestorsandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586113307368-ojqfurnetdjp0luh1a2jvs6vanrh2bf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pitchinvestorsgroup.pitchinvestorsandroid",
+            "certificate_hash": "861dc5e316a13a28227f07c24cdffc2ef8dc03ef"
+          }
+        },
+        {
+          "client_id": "586113307368-27uncbclocf0c8cp3c5vn0ctk12vouso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_UZSqFzVR0W33lyQ_Y51qTSrNMB3QMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586113307368-27uncbclocf0c8cp3c5vn0ctk12vouso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

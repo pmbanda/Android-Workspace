@@ -1,0 +1,145 @@
+<resources>
+
+    <string name="app_name">Pitch Investors Group</string>
+
+    <string name="action_members">Members</string>
+    <string name="action_portfolio">Portfolio</string>
+    <string name="action_dividends">Dividends</string>
+    <string name="action_rules">Rules and Regulations</string>
+
+    <string name="about_group_text"><b><h4>History And Mission</h4></b>
+        \n\nRe-Launched in 2015 Pitch Investment Group recovered from non-performance in 2014 due to the fact that investors concentrated heavily on rules and
+        regulations instead of the group and investments. Due to this set-back the group relied heavily on investing while implementing the rules. As members we
+        do not believe in failure but on ways to improve the company and maintain a very solid foundation.
+
+        \n\nPitch Investors Group, our focus is directed toward evaluating and completing investments in North America and Africa mainly in Energy,
+        Resources, Technology, Real Estate and Emerging Markets with appropriate diversification and balance between each division.
+        \n\nPitch Investors Group is born from a belief that values-based, sustainable investment practices can enhance return rates.
+
+        \n\nWe target under-valued investments with realistic and immediate appreciation potential and a defined exit strategy.
+        Our Investments are not only limited to the latter but Investors can also pitch in any ideas they might have, and the committee will
+        evaluate based on a risk assessment.
+
+        \n\n
+        <b><h4>Vision Statement</h4></b>
+        \n\nTo emerge from the position of domestic leader to leading global player in the investment sector by adopting best practices
+        and wise analytics before investments and decision making.
+
+        \n\n
+        <b><h4>Mission Statement</h4></b>
+        \n\nWe are committed to enriching society by delivering superior investment services. We are not afraid to continually challenge conventional wisdom and actively
+        encourage change in order to pursue growth. We are committed to putting our clients at the heart of our business, developing and maintaining long-standing relationships
+        based on trust. We are one firm, committed to delivering the full range of our capabilities, knowledge and resources to meet the needs of our clients. We respect diversity
+        and value differences of opinion.
+    </string>
+
+    <string name="members_group_text">
+    <b>Peter Mbanda</b>
+    \n<i>Chairman</i>
+    \nWith Pitch Investors Group since inception 2014, maintains and co\'ordinate as well as oversee the groups performance. Also responsible
+    for organising the group meetings and active participant in groups decision making and strategy.
+
+    \n\n<b>Anthony Karanja</b>
+    \n<i>Committee</i>
+    \nAnthony joined Pitch Investors Group in 2015. He is responsible for the groups core decision making process. Anthony brings his skills as an analyst and
+    strategist.  As a member of the investment committee he has a key role in shaping our approach to sustainable, responsible investing (SRI) portfolios.
+
+    \n\n<b>Victor Muiruri</b>
+    \n<i>Committee</i>
+    \nVictor joined Pitch Investors Group in 2015. He is responsible for the groups core decision making process. Victor brings his skills as a day-to-day
+    trader.  As a member of the investment committee he has a key role in shaping our approach to sustainable, responsible investing (SRI) portfolios.
+
+    \n\n<b>David Kyrupt</b>
+    \n<i>Committee</i>
+    \nDavid joined Pitch Investors Group in 2015. He is responsible for the groups core decision making process. David brings his skills as an analyst and
+    strategist.  As a member of the investment committee he has a key role in shaping our approach to sustainable, responsible investing (SRI) portfolios.
+
+
+    \n\n<b>Levi Mwirigi</b>
+    \n<i>Member</i>
+    \nLevi started at Pitch Investors Group in 2015. He is responsible as a member to ensure performance by the board members. Holds one vote as
+    a stake holder and responsible for electing members into the board.
+
+    \n\n<b>Njenga Kihumba</b>
+    \n<i>Member</i>
+    \nNjenga started at Pitch Investors Group in 2015. He is responsible as a member to ensure performance by the board members. Holds one vote as
+    a stake holder and responsible for electing members into the board.
+
+    \n\n<b>Bernard Kairu</b>
+    \n<i>Member</i>
+    \nBernard started at Pitch Investors Group in the latter half of 2015. He is responsible as a member to ensure performance by the board members. Holds one vote as
+    a stake holder and responsible for electing members into the board.
+
+    \n\n<b>Brian Kiarie</b>
+    \n<i>Member</i>
+    \nBrian started at Pitch Investors Group in 2015. He is responsible as a member to ensure performance by the board members. Holds one vote as
+    a stake holder and responsible for electing members into the board.
+    </string>
+
+    <string name="title_activity_members">Members (PIG)</string>
+    <string name="title_activity_portfolio">Portfolio (PIG)</string>
+    <string name="title_activity_dividends">Dividends (PIG)</string>
+    <string name="title_activity_rules">Rules (PIG)</string>
+
+    <string name="rules_group_text"> When you start an investment club, you are starting a business and you need to decide on what type of business operating structure you will use.
+        Different business types have different operating, federal and state reporting and taxation requirements.
+
+        \n\nWe recommend you operate as a general partnership. This is the simplest structure to use when a group of people conduct business together.
+        Setting up a general partnership is simple. You register a name, get an EIN number and develop and sign a partnership agreement.
+        Each year you will need to file a federal and possibly a state partnership tax return. They are informational returns.
+        A partnership is a \"pass through\" entity. All of it\'s income is distributed yearly to the partners.
+        Taxes are paid by each partner on their portion on their individual tax returns. Pitch Investors Group is designed to let you easily do the accounting for a general partnership.
+        It uses your accounting data to quickly generate the federal tax return Form 1065 your investment club needs to file each year.
+
+
+        \n\nSometimes people are concerned because members of a general partnership have personal liability for the actions of the partnership.
+        This applies only when partners are acting within the defined boundaries of the partnerships business. The purpose of your partnership should be clearly
+        spelled out in your partnership agreement. The only purpose of the partnership is to invest the assets of the partnership solely in stocks, bonds,
+        and other securities for the education and benefit of the
+        partners.\"
+
+
+        \n\nWithin these constraints, if you file the necessary tax returns each year, it is unlikely that your partnership would incur any liability that you would
+        cause you any personal issues. Many clubs have operated for many years successfully as general partnerships without any problems that we are aware of.
+        For simplicity, we suggest you use this business set up.
+
+
+        \n\nDespite this, some clubs want to consider operating as an LLC or Limited Liability Company. Within an LLC, each members personal liability is generally
+        limited to their percent of ownership. Limited Liability Companies are set up with your state and do require additional annual reporting and fees. In general, however,
+        they do have the same tax reporting requirements as general partnerships. This means that Pitch Investors Group would still provide your club with the accounting
+        and tax forms that you would need to file.
+
+
+
+        \n\nWe do get questions every now and then about whether a group should set themselves up as a corporation. We would highly discourage this. With a corporation,
+        you will have much more complicated operating and state reporting requirements. Pitch Investors Group does not provide the accounting or produce the taxes you would need to
+        file as a corporation. If you feel you must run your investment group as a corporation, you should do so with outside professional legal and
+        accounting guidance.</string>
+
+
+    <string name="portfolio_group_text">
+        <b>Type of Investment</b>
+        \n<i>Stock</i>
+        \n\n<b>Chesapeake Energy</b> <i>Symbol \(chk\)</i>
+        \nDescription
+        \n\nChesapeake Energy Corporation engages in the acquisition, exploration, and development of properties for the production of oil,
+        natural gas, and natural gas liquids from underground reservoirs in the United States. The company holds interests in natural gas resource plays,
+        Louisiana and East Texas. The Marcellus Shale in Pennsylvania and the Barnett Shale in South Texas.
+        The Utica Shale in Ohio and Pennsylvania, the Anadarko Basin in Oklahoma and the Texas Panhandle; and the Niobrara Shale in Wyoming.
+        The company owns interests in approximately 32,400 oil and natural gas wells. Chesapeake Energy Corporation was founded
+        in 1989 and is headquartered in Oklahoma City, Oklahoma.
+
+        \n\n<i>Stock</i>
+        \n\n<b>Sprint Corporation</b> <i>Symbol \(s\)</i>
+        \nDescription
+        \n\nSprint Corporation, through its subsidiaries, provides various wireless and wire line communications products and services to consumers,
+        businesses, government subscribers, and resellers in the United States, Puerto Rico, and the U.S. Virgin Islands.
+        The Wireless segment offers wireless data communication services, including mobile productivity applications, such as Internet access,
+        messaging, and email services. The Wire line segment provides wire line voice and data communications, including domestic and
+        international data communications using various protocols, such as multi protocol label switching technologies,
+        Internet protocol (IP), managed network services, Voice over IP, session initiated protocol, and traditional voice services
+        to other communications companies. Sprint Corporation is a subsidiary of SoftBank Group Corp.
+
+    </string>
+</resources>
+
