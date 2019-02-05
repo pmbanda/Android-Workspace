@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void getMessage(View view) {
 
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.resumeshowcase.appspot.com/webscraper.jsp"));
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vogella.com/"));
         startActivity(i);
         Log.i(TAG, "Hierba..............");
         Log.i(TAG, i.toString());
