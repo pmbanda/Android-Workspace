@@ -5,4 +5,7 @@
     <string name="text_pass_data">Data</string>
     <string name="text_data1_orig">Data Text 1</string>
     <string name="text_data2_orig">Data Text 2</string>
+    <string name="text_user_name_label">User Name</string>
+    <string name="text_the_name">Name Value</string>
+    <string name="text_practise">Practice</string>
 </resources>
