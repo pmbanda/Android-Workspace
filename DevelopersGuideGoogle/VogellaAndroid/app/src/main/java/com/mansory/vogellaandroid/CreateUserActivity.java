@@ -11,32 +11,32 @@ import org.w3c.dom.Text;
 
 public class CreateUserActivity extends AppCompatActivity {
 
-    private TextView userName;
+    //private TextView userName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_user);
 
-        userName = (TextView) findViewById(R.id.username);
+        //userName = (TextView) findViewById(R.id.username);
         //View viewById = findViewById(R.id.female);
         //viewById.setAlpha(0.4f);
     }
 
-    // TODO more code
-    public void onClick(View view) {
-        finish();
-    }
-
-    @Override
-    public void finish() {
-        Intent intent = new Intent();
-
-        intent.putExtra(User.USER_NAME, userName.getText().toString());
-        // TODO replace with real value
-        intent.putExtra(User.USER_GENDER, true); // hard-code value for testing
-
-        setResult(RESULT_OK, intent);
-        super.finish();
-    }
+//    // TODO more code
+//    public void onClick(View view) {
+//        finish();
+//    }
+//
+//    @Override
+//    public void finish() {
+//        //Intent intent = new Intent();
+//
+//        //intent.putExtra(User.USER_NAME, userName.getText().toString());
+//        // TODO replace with real value
+//        //intent.putExtra(User.USER_GENDER, true); // hard-code value for testing
+//
+//        //setResult(RESULT_OK, intent);
+//        //super.finish();
+//    }
 }
