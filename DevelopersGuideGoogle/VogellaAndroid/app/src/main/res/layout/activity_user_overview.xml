@@ -7,7 +7,7 @@
     >
 
     <TextView
-        android:id="@+id/user_name_label_ID"
+        android:id="@+id/userlabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -17,12 +17,12 @@
         android:text="@string/text_user_name_label"
         android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/the_name_text_ID"
+    <EditText
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/user_name_label_ID"
-        android:layout_alignStart="@+id/user_name_label_ID"
+        android:layout_below="@+id/userlabel"
+        android:layout_alignStart="@+id/userlabel"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/text_the_name"
@@ -30,11 +30,11 @@
 
 
     <TextView
-        android:id="@+id/button_learn_ID"
+        android:id="@+id/button_learn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/the_name_text_ID"
-        android:layout_alignStart="@+id/the_name_text_ID"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"
         android:layout_marginTop="45dp"
         android:onClick="onClick"
         android:text="@string/text_practise"
@@ -42,12 +42,3 @@
 
 </RelativeLayout>
 
-
-<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".UserOverviewActivity">
-
-</android.support.constraint.ConstraintLayout>-->

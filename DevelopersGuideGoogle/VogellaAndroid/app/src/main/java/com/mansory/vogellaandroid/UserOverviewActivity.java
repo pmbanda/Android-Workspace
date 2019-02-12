@@ -41,6 +41,6 @@ public class UserOverviewActivity extends AppCompatActivity {
 
     private void updateUserInterface() {
         // TODO show the new user values in the UI
-        
+
     }
 }

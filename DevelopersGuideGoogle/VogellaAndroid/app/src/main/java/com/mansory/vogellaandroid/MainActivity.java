@@ -1,41 +1,74 @@
 package com.mansory.vogellaandroid;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;
 
-import java.net.URISyntaxException;
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
-    public static String TAG = "com.mansory.vogellaandroid";
-    private final int REQUEST_CODE = 300;
+    // private methods declaration
+    public static String TAG = "com.mansory.vogellaandroid.MainActivity";
+    private final int REQUEST_CODE = 999;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-
     }
-    public void passData(View view) {
-        Intent i = new Intent(this, DisplayMessage.class);
-        i.putExtra("Value1", "Value one for Display Message Activity");
-        i.putExtra("Value2", "Value two for Display Message Activity");
+
+    public void submitOnClick(View view) {
+        // intent declaration
+        Intent intent = new Intent(this, DisplayMessage.class);
+        intent.putExtra("1", "Value (One) for Activity2");
+        intent.putExtra("2", "Value (Two) for Activity2");
+
+        // start Target activity + com.mansory.vogellaandroid.DisplayMessage
+        startActivity(intent);
+    }
+    public void dataOnClick(View view) {
+        // intent instance for browser view
+        Intent openBrowserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vogella.com/"));
+        startActivity(openBrowserIntent);
+
+        Log.i(TAG, "Data..... Text");
+        Log.i(TAG, openBrowserIntent.toString());
+    }
+
+    public void resultOnClick(View view) {
+        // intent declaration
+        Intent intent = new Intent(this, DisplayMessage.class);
+        intent.putExtra("1", "Value (One) for Activity2");
+        intent.putExtra("2", "Value (Two) for Activity2");
 
         // set the request code to any code you like,
         // you can identify the callback via this code
-        startActivityForResult(i, REQUEST_CODE);
+        startActivityForResult(intent,REQUEST_CODE);
     }
-
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // obtain value from the result
+        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
+            if (data != null) {
+                Toast toast = new Toast(this);
+                toast.setGravity(Gravity.CENTER, 0, 0);
+                toast.makeText(this, data.getStringExtra("return1"),
+                        Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(this, data.getStringExtra("return2"),
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+}
+
+   /* @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
             if (data.hasExtra("returnKey1")) {
@@ -73,3 +106,4 @@ public class MainActivity extends AppCompatActivity {
         return list.size() > 0;
     }
 }
+*/

@@ -7,26 +7,39 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button_submit"
+        android:id="@+id/btnSubmit"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:onClick="getMessage"
-        android:text="@string/submit_text_button"
+        android:background="@color/colorAccent"
+        android:onClick="submitOnClick"
+        android:text="@string/submit_button_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_pass_data"
+        android:id="@+id/btnData"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:onClick="passData"
-        android:text="@string/text_pass_data"
+        android:onClick="dataOnClick"
+        android:text="@string/data_button_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_submit" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="resultOnClick"
+        android:background="@color/colorPrimary"
+        android:text="@string/result_button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnData" />
 
 
 </android.support.constraint.ConstraintLayout>
