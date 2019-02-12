@@ -7,8 +7,8 @@
     <string name="text_data2_orig">Data Text 2</string>
 
     <string name="call_text_button">Call</string>
-    <string name="text_user_name_label">User Name</string>
-    <string name="text_the_name">Name Value</string>
-    <string name="text_practise">Practice</string>
+    <string name="txt_user_name_label">User Name</string>
+    <string name="txt_the_name">Name Value</string>
+    <string name="txt_practise">Practice</string>
     <string name="result_button_text">Result</string>
 </resources>

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Intent openBrowserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vogella.com/"));
         startActivity(openBrowserIntent);
 
-        Log.i(TAG, "Data..... Text");
+        Log.i(TAG, "Data..... Texting");
         Log.i(TAG, openBrowserIntent.toString());
     }
 

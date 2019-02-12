@@ -7,37 +7,37 @@
     >
 
     <TextView
-        android:id="@+id/userlabel"
+        android:id="@+id/txt_user_name_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/text_user_name_label"
+        android:text="@string/txt_user_name_label"
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/editTxt_enter_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/userlabel"
-        android:layout_alignStart="@+id/userlabel"
+        android:layout_below="@+id/txt_user_name_label"
+        android:layout_alignStart="@+id/txt_user_name_label"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/text_the_name"
+        android:text="@string/txt_the_name"
         android:textSize="42sp" />
 
 
     <TextView
-        android:id="@+id/button_learn"
+        android:id="@+id/btn_learn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/username"
-        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/editTxt_enter_name"
+        android:layout_alignStart="@+id/editTxt_enter_name"
         android:layout_marginTop="45dp"
         android:onClick="onClick"
-        android:text="@string/text_practise"
+        android:text="@string/txt_practise"
         android:textSize="70sp" />
 
 </RelativeLayout>
