@@ -1,13 +1,9 @@
 package com.mansory.vogellaandroid;
 
 import android.content.Intent;
-import android.renderscript.RenderScript;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
-
-import static android.util.Log.println;
 
 public class DisplayMessage extends AppCompatActivity {
 
@@ -35,7 +31,7 @@ public class DisplayMessage extends AppCompatActivity {
     public void finish() {
         // Prepare data intent for return to the caller
         Intent data = new Intent();
-        data.putExtra("return1", "DisplayMessage:: Swinging on a star. ");
+        //data.putExtra("return1", "DisplayMessage:: Swinging on a star. ");
         data.putExtra("return2", "DisplayMessage:: You could be better then you are. ");
 
         // Activity finished ok, return the data

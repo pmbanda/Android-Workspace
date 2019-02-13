@@ -17,4 +17,5 @@
     <string name="user_label_value">User name</string>
     <string name="user_name_value">the name</string>
     <string name="button_learn_value">Practice</string>
+    <string name="call_button_text">Call</string>
 </resources>

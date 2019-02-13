@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -36,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Intent openBrowserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vogella.com/"));
         startActivity(openBrowserIntent);
 
-        Log.i(TAG, "Data..... Texting");
-        Log.i(TAG, openBrowserIntent.toString());
     }
 
     public void resultOnClick(View view) {
@@ -50,18 +46,22 @@ public class MainActivity extends AppCompatActivity {
         // you can identify the callback via this code
         startActivityForResult(intent,REQUEST_CODE);
     }
+    public void callOnClick(View view) {
+        // intent instance for browser view
+        Intent callIFace = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "4054044141"));
+        startActivity(callIFace);
+
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // obtain value from the result
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
             if (data != null) {
-                Toast toast = new Toast(this);
-                toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.makeText(this, data.getStringExtra("return1"),
+                Toast.makeText(this, data.getStringExtra("return2"),
                         Toast.LENGTH_SHORT).show();
 
-                Toast.makeText(this, data.getStringExtra("return2"),
-                        Toast.LENGTH_LONG).show();
+                //Toast.makeText(this, data.getStringExtra("return2"),
+                        //Toast.LENGTH_LONG).show();
             }
         }
         super.onActivityResult(requestCode, resultCode, data);
