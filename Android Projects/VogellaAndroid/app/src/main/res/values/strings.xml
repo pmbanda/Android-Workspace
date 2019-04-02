@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Vogella Android</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="data_button_text">Data</string>
+
+    <string name="text_data1">Data Text 1</string>
+    <string name="text_data2">Data Text 2</string>
+
+    <string name="call_text_button">Call</string>
+    <string name="txt_user_name_label">User Name</string>
+    <string name="txt_the_name">Name Value</string>
+    <string name="txt_practise">Practice</string>
+    <string name="result_button_text">Result</string>
+    <string name="user_label_value">User name</string>
+    <string name="user_name_value">the name</string>
+    <string name="button_learn_value">Practice</string>
+    <string name="call_button_text">Call</string>
+    <string name="click_button_text">Click</string>
+
+
+
+    <string name="button1_text">1</string>
+    <string name="button2_text">2</string>
+    <string name="button3_text">3</string>
+    <string name="button4_text">4</string>
+    <string name="button5_text">5</string>
+    <string name="button6_text">6</string>
+    <string name="button7_text">7</string>
+    <string name="button8_text">8</string>
+    <string name="button9_text">9</string>
+    <string name="button0_text">0</string>
+    <string name="buttonDel_text">Delete</string>
+    <string name="username_text_hint">Enter name</string>
+</resources>

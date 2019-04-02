@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/construction">
+
+    <TextView
+        android:id="@+id/userlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/user_label_value"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userlabel"
+        android:layout_alignStart="@+id/userlabel"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:textSize="36sp"
+        android:inputType="text"
+        android:hint="@string/username_text_hint"
+        android:labelFor="@id/username"/>
+
+
+    <TextView
+        android:id="@+id/txt_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginTop="45dp"
+        android:onClick="onClick"
+        android:text="@string/button_learn_value"
+        android:textSize="60sp" />
+
+</RelativeLayout>
+
