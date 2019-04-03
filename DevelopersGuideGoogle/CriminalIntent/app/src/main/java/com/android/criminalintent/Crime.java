@@ -1,3 +1,4 @@
+package com.android.criminalintent;
 import java.util.UUID;
 
 public class Crime {
@@ -22,3 +23,4 @@ public class Crime {
         mTitle = title;
     }
 }
+
